@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root {
+    --title-color: #2c3e50;
+}
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -105,7 +108,7 @@ nav a:hover, nav a.active {
 .content-section h3, 
 .api-section h3 {
     text-align: center;
-    color: #2c3e50;
+    color: var(--title-color);
     font-weight: 600;
     margin-bottom: 1.5rem;
     padding-bottom: .5rem;
@@ -201,6 +204,7 @@ footer {
     --header-bg: #0d2b26;
     --card-bg: #1e1e1e;
     --card-text: #ffffff;
+    --title-color: #ffffff;
 }
 
 .theme-switch-wrapper {
