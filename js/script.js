@@ -14,7 +14,7 @@ fetch(`https://jsonplaceholder.typicode.com/posts/${randomId}`)
         apiDiv.innerHTML = `
         <h4>Contoh Data Yang Diambil Secara Acak </h4>
         <strong>Judul:</strong> ${data.title} <br>
-        <strong>Isi:</strong> ${data.body.substring (0, 100)}...
+        <strong>Isi:</strong> ${data.body.substring (0, 100)}
         `;
     }
 })
