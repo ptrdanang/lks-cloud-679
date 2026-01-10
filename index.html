@@ -5,11 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | LKS Cloud Deploy ☁</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☁️</text></svg>"></head>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☁️</text></svg>">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet"></head>
 </head>
 <body>
     <header>
-        <div class="container">
+    <div class="container">
+        <div style="display: flex; justify-content: space-between; align-items: center; width: 100%; margin-bottom: 10px;">
+            <div class="digital-clock">
+                <span id="live-clock">00:00:00</span>
+            </div>
+            <div class="theme-switch-wrapper">
+                <button id="theme-toggle">🌙 Dark Mode</button>
+            </div>
+        </div>
+        
+        <hr style="width: 100%; border: 0.5px solid rgba(255,255,255,0.1); margin: 5px 0;">
+
+        <div class="header-main">
             <h1>LKS Cloud Deploy ☁</h1>
             <nav>
                 <ul>
@@ -18,36 +31,38 @@
                 </ul>
             </nav>
         </div>
-    </header>
+    </div>
+</header>
 
     <main>
         <section class="hero">
             <div class="container">
-                <h2>Selamat Datang Diportal Deployment Cloud</h2>
+                <div class="hero-content">
+                    <h2>Selamat Datang Diportal Deployment Cloud</h2>
                 <p class="description">
                     Aplikasi web statis ini dikembangkan sebagai tugas Lomba Kompetensi Siswa (LKS) SMK bidang Cloud Computing tahun 2026. Proyek ini mendemonstrasikan proses deployment otomatis dari GitHub ke platform layanan Cloud (Vercel/Netlify).
                 </p>
-
                 <a href="#fitur" class="button">Pelajari Lebih Lanjut</a>
+                </div>
             </div>
         </section>
 
-        <section id="fitur" class="content-section">
-            <div class="container">
-                <h3>Apa Itu Cloud Computing?</h4>
+        <section class="content-section">
+                <div class="container">
+                    <h3>Apa Itu Cloud Computing?</h3>
 
                 <div class="card-grid">
-                    <div class="card">
+                    <div class="card fade-in">
                         <h4>Iaas (Infrastruktur)</h4>
-                        <p>Menyediakan sumber daya komputasi dasar seperti Vitual Machine (VM), jaringan, dan penyimpanan.</p>
+                        <p>Menyediakan sumber daya komputasi dasar seperti Virtual Machine (VM), jaringan, dan penyimpanan.</p>
                     </div>
 
-                    <div class="card">
+                    <div class="card fade-in">
                         <h4>Paas (Platform)</h4>
                         <p>Menyediakan lingkungan yang siap digunakan untuk mengembangkan, dan mengelola apliasi tanpa mengurus infrastruktur</p>
                     </div>
 
-                    <div class="card">
+                    <div class="card fade-in">
                         <h4>Saas (Software)</h4>
                         <p>Perangkat lunak yang siap diakses melalui internet, dikelola sepenehnya oleh penyedia layanan (Google Workspace, Office 365)</p>
                     </div>
@@ -66,7 +81,7 @@
 
         <footer>
             <div class="container">
-                <p>&copy; LKS Cloud Computing. Deploy by Walidi Danang</p>
+                <p>&copy; LKS Cloud Computing. Deploy By Walidi Danang</p>
             </div>
         </footer>
 

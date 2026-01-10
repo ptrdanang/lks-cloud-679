@@ -6,10 +6,23 @@
     <title>About | LKS Cloud Deploy ☁</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎓</text></svg>">
-</head>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet"></head>
 <body>
     <header>
-        <div class="container">
+    <div class="container">
+        <div style="display: flex; justify-content: space-between; align-items: center; width: 100%; margin-bottom: 10px;">
+            <div class="digital-clock">
+                <span id="live-clock">00:00:00</span>
+            </div>
+            
+            <div class="theme-switch-wrapper">
+                <button id="theme-toggle">🌙 Dark Mode</button>
+            </div>
+        </div>
+        
+        <hr style="width: 100%; border: 0.5px solid rgba(255,255,255,0.1); margin: 5px 0;">
+
+        <div class="header-main">
             <h1>LKS Cloud Deploy ☁</h1>
             <nav>
                 <ul>
@@ -18,10 +31,11 @@
                 </ul>
             </nav>
         </div>
-    </header>
+    </div>
+</header>
     
     <main>
-        <section class="content-section" about-section>
+        <section class="content-section fade-in" about-section>
             <div class="container">
                 <h2 style="text-align: center;">Informasi Pembuat Aplikasi Web</h2>
 
@@ -32,12 +46,14 @@
                         <p><strong>Nama Lengkap:</strong> Walidi Danang</p>
                         <p><strong>Nomor Peserta:</strong> 679</p>
                         <p><strong>Asal Sekolah:</strong> SMK ISLAM 1 BLITAR</p>
-                        <p><strong>Keahlain:</strong> Teknik Komputer Jaringan</p>
                         <p><strong>Bidang Lomba:</strong> Cloud Computing</p>
+                        <p><strong>Keahlian:</strong> Teknik Komputer Jaringan</p>
+                        <span class="badge">Networking</span>
+                        <span class="badge">Cloud</span>
                     </div>
 
                     <div class="card project-desc">
-                        <h4 style="color: aqua;">Deskripsi Proyek Deployment</h4>
+                        <h4 style="color: #e67e22;">Deskripsi Proyek Deployment</h4>
                         <p>
                             Proyek ini adalah implementasi dari soal modul deploy website dari GitHub untuk LKS Cloud Computing. Tujuan utama dari proyek ini adalah mendemonstrasikan kemampuan:
                         </p>
@@ -55,9 +71,12 @@
 
     <footer>
         <div class="container">
-            <p>&copy; LKS Cloud Computing 2026. Deploy by Walidi Danang</p>
+            <p>&copy; LKS Cloud Computing 2026. Deploy By Walidi Danang</p>
         </div>
     </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/script.js"></script>
 
     <script>
         console.log("Halaman Tentang Identitas Peserta Dimuat (about.html)")
