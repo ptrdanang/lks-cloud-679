@@ -171,13 +171,13 @@ nav a:hover, nav a.active {
 }
 
 .profile-card { border-left: 5px solid #0ff007; }
-.project-desc { border-left: 5px solid #07f0dc; }
+.project-desc { border-left: 5px solid #0ff007; }
 .profile-card p, .project-desc ul { margin: 10px 0; }
 .project-desc ul { padding-left: 20px; }
 .profile-card strong { display: inline-block; width: 150px; }
 
 footer {
-    background: #20222e;
+    background: #1d5249;
     color: #fff;
     text-align: center;
     padding: 1rem 0;
