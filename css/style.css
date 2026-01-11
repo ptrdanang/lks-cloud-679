@@ -3,10 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-:root {
-    --title-color: #2c3e50;
-}
-
 body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.6;
@@ -190,7 +186,7 @@ footer {
 .digital-clock {
     font-size: 1rem;
     background: rgba(0, 8, 4, 0.2);
-    color: #06ff27;
+    color: #0ff007;
     padding: 2px 12px;
     border-radius: 15px;
     border: 1px solid rgba(46, 204, 113, 0.4);
